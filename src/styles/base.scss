@@ -1,0 +1,73 @@
+@import './quasar.variables.scss';
+
+.q-field {
+    &__before,
+    &__prepend {
+        padding-right: 0 !important;
+
+        > * {
+            margin-right: 12px;
+        }
+    }
+
+    &--dense {
+        .q-field {
+            &__before,
+            &__prepend {
+                > * {
+                    margin-right: 6px;
+                }
+            }
+        }
+    }
+}
+
+.q-item {
+    &__section {
+        &--avatar {
+            min-width: 0;
+        }
+    }
+}
+
+.q-tooltip {
+    background-color: $blue-grey-10;
+    border-radius: 0;
+    font-size: 0.7rem;
+    padding: 6px 10px;
+}
+
+.q-notification {
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.text-role {
+    &-1 {
+        color: $gk;
+    }
+    &-2 {
+        color: $df;
+    }
+    &-3 {
+        color: $md;
+    }
+    &-4 {
+        color: $fw;
+    }
+}
+
+.bg-role {
+    &-1 {
+        background-color: $gk;
+    }
+    &-2 {
+        background-color: $df;
+    }
+    &-3 {
+        background-color: $md;
+    }
+    &-4 {
+        background-color: $fw;
+    }
+}
